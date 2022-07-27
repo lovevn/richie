@@ -3,8 +3,8 @@ from django.conf import settings
 
 from .utils import pick_image
 
-DEFAULT_DEMO_SITE_DOMAIN = "localhost:8070"
-DEFAULT_LMS_ENDPOINT = "http://localhost:8073"
+DEFAULT_DEMO_SITE_DOMAIN = "https://eclass.vn"
+DEFAULT_LMS_ENDPOINT = "https://lms.eclass.vn"
 
 NB_OBJECTS = {
     "courses": 75,
@@ -34,58 +34,58 @@ NB_OBJECTS.update(getattr(settings, "RICHIE_DEMO_NB_OBJECTS", {}))
 
 PAGES_INFO = {
     "home": {
-        "title": {"en": "Home", "fr": "Accueil"},
+        "title": {"vi": "Home", },
         "in_navigation": False,
         "is_homepage": True,
         "template": "richie/homepage.html",
     },
     "blogposts": {
-        "title": {"en": "News", "fr": "Actualités"},
+        "title": {"vi": "News",},
         "in_navigation": True,
         "template": "courses/cms/blogpost_list.html",
     },
     "courses": {
-        "title": {"en": "Courses", "fr": "Cours"},
+        "title": {"vi": "Courses",},
         "in_navigation": True,
         "template": "search/search.html",
     },
     "categories": {
-        "title": {"en": "Categories", "fr": "Catégories"},
+        "title": {"vi": "Categories",},
         "in_navigation": True,
         "template": "courses/cms/category_list.html",
     },
     "organizations": {
-        "title": {"en": "Organizations", "fr": "Établissements"},
+        "title": {"vi": "Organizations",},
         "in_navigation": True,
         "template": "courses/cms/organization_list.html",
     },
     "persons": {
-        "title": {"en": "Persons", "fr": "Personnes"},
+        "title": {"vi": "Persons", },
         "in_navigation": True,
         "template": "courses/cms/person_list.html",
     },
     "programs": {
-        "title": {"en": "Programs", "fr": "Parcours"},
+        "title": {"vi": "Programs", },
         "in_navigation": True,
         "template": "courses/cms/program_list.html",
     },
     "annex": {
-        "title": {"en": "Annex", "fr": "Annexe"},
+        "title": {"vi": "Annex", },
         "in_navigation": False,
         "template": "richie/single_column.html",
         "children": {
             "annex__about": {
-                "title": {"en": "About", "fr": "A propos"},
+                "title": {"vi": "About",},
                 "in_navigation": True,
                 "template": "richie/single_column.html",
             },
             "annex__sitemap": {
-                "title": {"en": "Sitemap", "fr": "Plan de site"},
+                "title": {"vi": "Sitemap", },
                 "in_navigation": True,
                 "template": "richie/single_column.html",
             },
             "login-error": {
-                "title": {"en": "Login error", "fr": "Erreur de connexion"},
+                "title": {"vi": "Login error",},
                 "in_navigation": False,
                 "template": "richie/single_column.html",
             },
@@ -96,202 +96,186 @@ PAGES_INFO.update(getattr(settings, "RICHIE_DEMO_PAGES_INFO", {}))
 
 
 LEVELS_INFO = {
-    "page_title": {"en": "Level", "fr": "Niveau"},
+    "page_title": {"vi": "Level",},
     "children": [
-        {"page_title": {"en": "Beginner", "fr": "Débutant"}},
-        {"page_title": {"en": "Advanced", "fr": "Avancé"}},
-        {"page_title": {"en": "Expert", "fr": "Expert"}},
+        {"page_title": {"vi": "Beginner", }},
+        {"page_title": {"vi": "Advanced", }},
+        {"page_title": {"vi": "Expert", }},
     ],
     "page_reverse_id": "levels",
 }
 LEVELS_INFO.update(getattr(settings, "RICHIE_DEMO_LEVELS_INFO", {}))
 
 PARTNERSHIPS_INFO = {
-    "page_title": {"en": "Partnership", "fr": "Partenariat"},
+    "page_title": {"vi": "Partnership", },
     "children": [
-        {"page_title": {"en": "Gold", "fr": "Or"}},
-        {"page_title": {"en": "Silver", "fr": "Argent"}},
-        {"page_title": {"en": "Bronze", "fr": "Bronze"}},
+        {"page_title": {"vi": "Gold", }},
+        {"page_title": {"vi": "Silver", }},
+        {"page_title": {"vi": "Bronze", }},
     ],
     "page_reverse_id": "partnerships",
 }
 PARTNERSHIPS_INFO.update(getattr(settings, "RICHIE_DEMO_PARTNERSHIPS_INFO", {}))
 
 TAGS_INFO = {
-    "page_title": {"en": "Tag", "fr": "Etiquette"},
+    "page_title": {"vi": "Tag", },
     "children": [
-        {"page_title": {"en": "Event", "fr": "Evénement"}},
-        {"page_title": {"en": "Feature", "fr": "Fonctionnalité"}},
-        {"page_title": {"en": "Around the course", "fr": "Autour du cours"}},
-        {"page_title": {"en": "Partner", "fr": "Partenaire"}},
-        {"page_title": {"en": "Portrait", "fr": "Portrait"}},
-        {"page_title": {"en": "Recruitment", "fr": "Recrutement"}},
+        {"page_title": {"vi": "Event", }},
+        {"page_title": {"vi": "Feature", }},
+        {"page_title": {"vi": "Around the course", }},
+        {"page_title": {"vi": "Partner", }},
+        {"page_title": {"vi": "Portrait", }},
+        {"page_title": {"vi": "Recruitment", }},
     ],
     "page_reverse_id": "tags",
 }
 TAGS_INFO.update(getattr(settings, "RICHIE_DEMO_TAGS_INFO", {}))
 
 SUBJECTS_INFO = {
-    "page_title": {"en": "Subject", "fr": "Sujet"},
+    "page_title": {"vi": "Subject",},
     "children": [
         {
-            "page_title": {"en": "Science", "fr": "Sciences"},
+            "page_title": {"vi": "Science", },
             "children": [
                 {
                     "page_title": {
-                        "en": "Agronomy and Agriculture",
-                        "fr": "Agronomie et Agriculture",
+                        "vi": "Agronomy and Agriculture",
                     }
                 },
-                {"page_title": {"en": "Chemistry", "fr": "Chimie"}},
+                {"page_title": {"vi": "Chemistry", }},
                 {
                     "page_title": {
-                        "en": "Discovery of the Universe",
-                        "fr": "Découverte de l'Univers",
+                        "vi": "Discovery of the Universe",
                     }
                 },
-                {"page_title": {"en": "Environment", "fr": "Environnement"}},
+                {"page_title": {"vi": "Environment", }},
                 {
                     "page_title": {
-                        "en": "Mathematics and Statistics",
-                        "fr": "Mathématiques et Statistiques",
+                        "vi": "Mathematics and Statistics",
                     }
                 },
                 {
                     "page_title": {
-                        "en": "Tools for Research",
-                        "fr": "Outils pour la Recherche",
+                        "vi": "Tools for Research",
                     }
                 },
-                {"page_title": {"en": "Physics", "fr": "Physique"}},
+                {"page_title": {"vi": "Physics", }},
                 {
                     "page_title": {
-                        "en": "Cognitive science",
-                        "fr": "Sciences cognitives",
+                        "vi": "Cognitive science",
                     }
                 },
                 {
                     "page_title": {
-                        "en": "Earth science and science of the Universe",
-                        "fr": "Sciences de la Terre et de l'Univers",
+                        "vi": "Earth science and science of the Universe",
                     }
                 },
-                {"page_title": {"en": "Life science", "fr": "Sciences de la vie"}},
+                {"page_title": {"vi": "Life science", }},
                 {
                     "page_title": {
-                        "en": "Engineering science",
-                        "fr": "Sciences pour l'ingénieur",
+                        "vi": "Engineering science",
                     }
                 },
             ],
         },
         {
             "page_title": {
-                "en": "Human and social sciences",
-                "fr": "Sciences humaines et social",
+                "vi": "Human and social sciences",
             },
             "children": [
-                {"page_title": {"en": "Communication", "fr": "Communication"}},
+                {"page_title": {"vi": "Communication", }},
                 {
                     "page_title": {
-                        "en": "Creation, Arts and Design",
-                        "fr": "Création, Arts et Design",
+                        "vi": "Creation, Arts and Design",
                     }
                 },
                 {
                     "page_title": {
-                        "en": "Culture and Civilization",
-                        "fr": "Cultures et Civilisations",
+                        "vi": "Culture and Civilization",
                     }
                 },
                 {
                     "page_title": {
-                        "en": "Social Issues and Social Policy",
-                        "fr": "Enjeux de société",
+                        "vi": "Social Issues and Social Policy",
                     }
                 },
-                {"page_title": {"en": "Geography", "fr": "Géographie"}},
-                {"page_title": {"en": "History", "fr": "Histoire"}},
-                {"page_title": {"en": "Innovation", "fr": "Innovation"}},
-                {"page_title": {"en": "Literature", "fr": "Lettres"}},
-                {"page_title": {"en": "Media", "fr": "Médias"}},
-                {"page_title": {"en": "Philosophy", "fr": "Philosophie"}},
+                {"page_title": {"vi": "Geography", }},
+                {"page_title": {"vi": "History", }},
+                {"page_title": {"vi": "Innovation", }},
+                {"page_title": {"vi": "Literature", }},
+                {"page_title": {"vi": "Media", }},
+                {"page_title": {"vi": "Philosophy", }},
                 {
                     "page_title": {
-                        "en": "Political science",
-                        "fr": "Sciences politiques",
+                        "vi": "Political science",
                     }
                 },
                 {
                     "page_title": {
-                        "en": "International relations",
-                        "fr": "Relations internationales",
+                        "vi": "International relations",
                     }
                 },
-                {"page_title": {"en": "Sports", "fr": "Sport"}},
+                {"page_title": {"vi": "Sports", }},
             ],
         },
-        {"page_title": {"en": "Law", "fr": "Droit et juridique"}},
-        {"page_title": {"en": "Economy and Finance", "fr": "Economie et Finance"}},
+        {"page_title": {"vi": "Law", }},
+        {"page_title": {"vi": "Economy and Finance", }},
         {
             "page_title": {
-                "en": "Education and Training",
-                "fr": "Education et formation",
+                "vi": "Education and Training",
             }
         },
-        {"page_title": {"en": "Management", "fr": "Management"}},
-        {"page_title": {"en": "Entrepreneurship", "fr": "Entreprenariat"}},
+        {"page_title": {"vi": "Management", }},
+        {"page_title": {"vi": "Entrepreneurship", }},
         {
-            "page_title": {"en": "Computer science", "fr": "Informatique"},
+            "page_title": {"vi": "Computer science", },
             "children": [
                 {
                     "page_title": {
-                        "en": "Digital and Technology",
-                        "fr": "Numérique et Technologie",
+                        "vi": "Digital and Technology",
                     }
                 },
                 {
                     "page_title": {
-                        "en": "Telecommunication and Networks",
-                        "fr": "Télécommunications et Réseaux",
+                        "vi": "Telecommunication and Networks",
                     }
                 },
-                {"page_title": {"en": "Coding", "fr": "Programmation"}},
+                {"page_title": {"vi": "Coding", }},
             ],
         },
-        {"page_title": {"en": "Languages", "fr": "Langues"}},
-        {"page_title": {"en": "Education and career guidance", "fr": "Orientation"}},
-        {"page_title": {"en": "Health", "fr": "Santé"}},
+        {"page_title": {"vi": "Languages", }},
+        {"page_title": {"vi": "Education and career guidance", }},
+        {"page_title": {"vi": "Health", }},
     ],
     "page_reverse_id": "subjects",
 }
 SUBJECTS_INFO.update(getattr(settings, "RICHIE_DEMO_SUBJECTS_INFO", {}))
 
 ICONS_INFO = {
-    "page_title": {"en": "Icons", "fr": "Icônes"},
+    "page_title": {"vi": "Icons", },
     "children": [
         {
-            "page_title": {"en": "Academic", "fr": "Diplomant"},
+            "page_title": {"vi": "Academic", },
             "color": "#005c08",
             "fill_icon": pick_image("icons")("academic.png"),
         },
         {
-            "page_title": {"en": "Accessible", "fr": "Accessible"},
+            "page_title": {"vi": "Accessible", },
             "color": "#00a1d6",
             "fill_icon": pick_image("icons")("accessible.png"),
         },
         {
-            "page_title": {"en": "Closed caption", "fr": "Malentendants"},
+            "page_title": {"vi": "Closed caption",},
             "color": "#a11000",
             "fill_icon": pick_image("icons")("cc.png"),
         },
         {
-            "page_title": {"en": "Certificate", "fr": "Certifiant"},
+            "page_title": {"vi": "Certificate", },
             "color": "#ffc400",
             "fill_icon": pick_image("icons")("certificate.png"),
         },
         {
-            "page_title": {"en": "Subtitles", "fr": "Sous-titres"},
+            "page_title": {"vi": "Subtitles", },
             "color": "#6d00ba",
             "fill_icon": pick_image("icons")("subtitles.png"),
         },
@@ -301,7 +285,7 @@ ICONS_INFO = {
 ICONS_INFO.update(getattr(settings, "RICHIE_DEMO_ICONS_INFO", {}))
 
 HOMEPAGE_CONTENT = {
-    "en": {
+    "vi": {
         "banner_title": "Welcome to Richie",
         "banner_content": (
             """<h1 class="hero-intro__title">Welcome <strong>to Richie</strong></h1>"""
@@ -323,33 +307,11 @@ HOMEPAGE_CONTENT = {
         "subjects_title": "Subjects",
         "subjects_button_title": "More subjects",
     },
-    "fr": {
-        "banner_title": "Bienvenue sur Richie",
-        "banner_content": (
-            """<h1 class="hero-intro__title">Bienvenue <strong>sur Richie</strong></h1>"""
-            """<p>Ça marche ! Ceci est la page d'accueil par défaut du CMS Richie.</p>"""
-        ),
-        "banner_template": "richie/large_banner/hero-intro.html",
-        "button_template_name": "button-caesura",
-        "section_template": "richie/section/section.html",
-        "blogposts_title": "Actualités récentes",
-        "blogposts_button_title": "Plus d'actualités",
-        "courses_title": "Cours à la une",
-        "courses_button_title": "Plus de cours",
-        "organizations_title": "Universités",
-        "organizations_button_title": "Plus d'universités",
-        "subjects_title": "Thématiques",
-        "subjects_button_title": "Plus de thématiques",
-        "persons_title": "Personnes",
-        "persons_button_title": "Plus de personnes",
-        "programs_title": "Parcours",
-        "programs_button_title": "Plus de parcours",
-    },
 }
 HOMEPAGE_CONTENT.update(getattr(settings, "RICHIE_DEMO_HOMEPAGE_CONTENT", {}))
 
 SINGLECOLUMN_CONTENT = {
-    "en": {
+    "vi": {
         "banner_title": "Single column template sample",
         "banner_content": "It works! This is a single column page.",
         "banner_template": "richie/large_banner/hero-intro.html",
@@ -358,20 +320,12 @@ SINGLECOLUMN_CONTENT = {
         "section_sample_button_title": "More!",
         "section_sample_template": "richie/section/section.html",
     },
-    "fr": {
-        "banner_title": "Exemple de template avec une colonne unique",
-        "banner_content": "Ça marche ! Ceci est une page d'une colonne.",
-        "banner_template": "richie/large_banner/hero-intro.html",
-        "button_template_name": "button-caesura",
-        "section_sample_title": "Une section d'exemple",
-        "section_sample_button_title": "Plus !",
-        "section_sample_template": "richie/section/section.html",
-    },
+
 }
 SINGLECOLUMN_CONTENT.update(getattr(settings, "RICHIE_DEMO_SINGLECOLUMN_CONTENT", {}))
 
 FOOTER_CONTENT = {
-    "en": [
+    "vi": [
         {"name": "About", "internal_link": "annex__about"},
         {"name": "Sitemap", "internal_link": "annex__sitemap"},
         {"name": "Style guide", "external_link": "/styleguide/"},
@@ -394,35 +348,12 @@ FOOTER_CONTENT = {
             ],
         },
     ],
-    "fr": [
-        {"name": "A propos", "internal_link": "annex__about"},
-        {"name": "Plan du site", "internal_link": "annex__sitemap"},
-        {"name": "Style guide", "external_link": "/styleguide/"},
-        {
-            "title": "Communauté Richie",
-            "items": [
-                {"name": "Site web", "external_link": "https://richie.education"},
-                {
-                    "name": "Github",
-                    "external_link": "https://github.com/openfun/richie",
-                },
-                {
-                    "name": "Usine à sites",
-                    "external_link": "https://github.com/openfun/richie-site-factory",
-                },
-                {
-                    "name": "Site exemple",
-                    "external_link": "https://www.fun-campus.fr",
-                },
-            ],
-        },
-    ],
+
 }
 FOOTER_CONTENT.update(getattr(settings, "RICHIE_DEMO_FOOTER_CONTENT", {}))
 
 COURSE_CONTENT = {
-    "en": {"partners_title": "Partners", "sponsors_title": "Sponsors"},
-    "fr": {"partners_title": "Partenaires", "sponsors_title": "Sponsors"},
+    "vi": {"partners_title": "Partners", "sponsors_title": "Sponsors"},
 }
 COURSE_CONTENT.update(getattr(settings, "RICHIE_DEMO_COURSE_CONTENT", {}))
 
