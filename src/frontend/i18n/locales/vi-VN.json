@@ -1,0 +1,542 @@
+{
+  "components.AddressesManagement.actionCreation": {
+    "description": "Action name for address creation.",
+    "message": "khởi tạo"
+  },
+  "components.AddressesManagement.actionDeletion": {
+    "description": "Action name for address deletion.",
+    "message": "xóa bỏ"
+  },
+  "components.AddressesManagement.actionPromotion": {
+    "description": "Action name for address promotion.",
+    "message": "quảng cáo"
+  },
+  "components.AddressesManagement.actionUpdate": {
+    "description": "Action name for address update.",
+    "message": "cập nhật"
+  },
+  "components.AddressesManagement.addAddress": {
+    "description": "Title of the address creation form",
+    "message": "Thêm địa chỉ mới"
+  },
+  "components.AddressesManagement.addressInput": {
+    "description": "Label of the \"address\" input",
+    "message": "Địa chỉ"
+  },
+  "components.AddressesManagement.cancelButton": {
+    "description": "Label of the cancel button",
+    "message": "Hủy"
+  },
+  "components.AddressesManagement.cancelTitleButton": {
+    "description": "Title of the cancel button",
+    "message": "Hủy thay đổi"
+  },
+  "components.AddressesManagement.cityInput": {
+    "description": "Label of the \"city\" input",
+    "message": "Thành phố"
+  },
+  "components.AddressesManagement.closeButton": {
+    "description": "Label of the close button",
+    "message": "Quay lại"
+  },
+  "components.AddressesManagement.countryInput": {
+    "description": "Label of the \"country\" input",
+    "message": "Quốc gia"
+  },
+  "components.AddressesManagement.deleteButton": {
+    "description": "Label of the delete button",
+    "message": "Xóa bỏ"
+  },
+  "components.AddressesManagement.deleteButtonLabel": {
+    "description": "Title of the delete button",
+    "message": "Xóa \"{title}\" địa chỉ"
+  },
+  "components.AddressesManagement.deletionConfirmation": {
+    "description": "Confirmation message shown to the user when he wants to delete an address",
+    "message": "Bạn có chắc chắn là bạn muốn xóa địa chỉ \"{title}\" này ? ⚠️ Bạn không thể khôi phục lại được sau khi xóa."
+  },
+  "components.AddressesManagement.editAddress": {
+    "description": "Title of the address edit form",
+    "message": "Cập nhật địa chỉ {title}"
+  },
+  "components.AddressesManagement.editButton": {
+    "description": "Label of the edit button",
+    "message": "Chỉnh sửa"
+  },
+  "components.AddressesManagement.editButtonLabel": {
+    "description": "Title of the edit button",
+    "message": "Chỉnh sửa \"{title}\" địa chỉ"
+  },
+  "components.AddressesManagement.error": {
+    "description": "Error message shown to the user when address creation/update/deletion request fails.",
+    "message": "Có lỗi xảy ra khi địa chỉ thực hiện {action}. Vui lòng hãy thử sau."
+  },
+  "components.AddressesManagement.first_nameInput": {
+    "description": "Label of the \"first_name\" input",
+    "message": "Họ người nhận"
+  },
+  "components.AddressesManagement.last_nameInput": {
+    "description": "Label of the \"last_name\" input",
+    "message": "Tên người nhận"
+  },
+  "components.AddressesManagement.postcodeInput": {
+    "description": "Label of the \"postcode\" input",
+    "message": "Mã bưu điện"
+  },
+  "components.AddressesManagement.promoteButtonLabel": {
+    "description": "Title of the button to set the address as the main one",
+    "message": "Chọn địa chỉ \"{title}\" làm địa chỉ chính"
+  },
+  "components.AddressesManagement.registeredAddresses": {
+    "description": "Title of the registered addresses block",
+    "message": "Địa chỉ của bạn"
+  },
+  "components.AddressesManagement.saveInput": {
+    "description": "Label of the \"save\" input",
+    "message": "Lưu địa chi này"
+  },
+  "components.AddressesManagement.selectButton": {
+    "description": "Label of the select button",
+    "message": "Sử dụng địa chỉ"
+  },
+  "components.AddressesManagement.selectButtonLabel": {
+    "description": "Title of the select button",
+    "message": "Chọn \"{title}\" địa chỉ"
+  },
+  "components.AddressesManagement.titleInput": {
+    "description": "Label of the \"title\" input",
+    "message": "Tiêu đề địa chỉ"
+  },
+  "components.AddressesManagement.updateButton": {
+    "description": "Label of the update button",
+    "message": "Cập nhật địa chỉ này"
+  },
+  "components.CourseGlimpse.categoryLabel": {
+    "description": "Category label text for screen reader users",
+    "message": "Phân loại"
+  },
+  "components.CourseGlimpse.codeIconAlt": {
+    "description": "Course code logo alternative text for screen reader users",
+    "message": "Mã khóa học"
+  },
+  "components.CourseGlimpse.cover": {
+    "description": "Placeholder text when the course we are glimpsing at is missing a cover image",
+    "message": "Bọc"
+  },
+  "components.CourseGlimpse.organizationIconAlt": {
+    "description": "Organization logo alternative text for screen reader users",
+    "message": "Tổ chức"
+  },
+  "components.CourseGlimpseFooter.dateIconAlt": {
+    "description": "Course date logo alternative text for screen reader users",
+    "message": "Ngày khóa học"
+  },
+  "components.CourseGlimpseList.courseCount": {
+    "description": "Result count & pagination information for course search. Appears right above search results",
+    "message": "Hiện từ {start, number} đến {end, number} của {courseCount, number} {courseCount, plural, one {course} other {courses}} để phù hợp tìm kiếm của bạn"
+  },
+  "components.CourseGlimpseList.offscreenCourseCount": {
+    "description": "Short result count information for course search. Only for screen readers",
+    "message": "{courseCount, number} {courseCount, plural, one {course} cái khác {courses}} phù hợp với tìm kiếm của bạn"
+  },
+  "components.CourseProductCertificateItem.certificateExplanation": {
+    "description": "Text displayed when the product certificate has no description",
+    "message": "Bạn sẽ có thể tải xuống chứng chỉ của bạn sau khi đã hoàn thành khóa học."
+  },
+  "components.CourseProductCertificateItem.congratulations": {
+    "description": "Congratulation message when user has passed the course.",
+    "message": "Xin chúc mừng, bạn đã qua được khóa học này"
+  },
+  "components.CourseProductCertificateItem.download": {
+    "description": "Button label to download the certificate",
+    "message": "Tải xuống"
+  },
+  "components.CourseProductCertificateItem.generatingCertificate": {
+    "description": "Accessible label displayed while certificate is being generated.",
+    "message": "Chứng chỉ đang được khởi tạo..."
+  },
+  "components.CourseProductItem.enrolled": {
+    "description": "Message displayed when authenticated user owned the product",
+    "message": "Đã đăng ký"
+  },
+  "components.CourseProductsList.end": {
+    "description": "End label displayed in the header of course run dates section",
+    "message": "Kết thúc"
+  },
+  "components.CourseProductsList.loadingInitial": {
+    "description": "Accessible text for the initial loading spinner displayed when course is fetching",
+    "message": "Đang tải khóa học..."
+  },
+  "components.CourseProductsList.start": {
+    "description": "Start label displayed in the header of course run dates section",
+    "message": "Bắt đầu"
+  },
+  "components.CourseProductsLists.enrollOn": {
+    "description": "Text label for the enrollment dates",
+    "message": "Đăng ký từ {start} đến {end}"
+  },
+  "components.CourseProductsLists.noCourseRunAvailable": {
+    "description": "Text displayed when no course run are opened for the course",
+    "message": "Không có buổi học nào cho khóa học này."
+  },
+  "components.CourseRunEnrollment.enroll": {
+    "description": "CTA for users who can enroll in the course run or could enroll if they logged in.",
+    "message": "Đăng ký ngay!"
+  },
+  "components.CourseRunEnrollment.enrolled": {
+    "description": "Help text for users who see the \"Go to course\" CTA on course run enrollment",
+    "message": "Bạn đã đăng ký khóa học này."
+  },
+  "components.CourseRunEnrollment.enrollmentClosed": {
+    "description": "Help text replacing the CTA on a course run when enrollment is closed.",
+    "message": "Khóa học này hiện tại đang dóng đăng ký."
+  },
+  "components.CourseRunEnrollment.enrollmentFailed": {
+    "description": "Help text below the \"Enroll now\" CTA when an enrollment attempt has already failed.",
+    "message": "Yêu cầu đăng ký của bạn thất bại."
+  },
+  "components.CourseRunEnrollment.goToCourse": {
+    "description": "CTA for users who are already enrolled in a course run.",
+    "message": "Đến khóa học."
+  },
+  "components.CourseRunEnrollment.loadingInitial": {
+    "description": "Accessible text for the initial loading spinner on the course run enrollment button.",
+    "message": "Đang tải thông tin đăng ký..."
+  },
+  "components.CourseRunEnrollment.loginToEnroll": {
+    "description": "Helper text in the enroll button for non logged in users",
+    "message": "Đăng nhập để đăng ký khóa học"
+  },
+  "components.CourseRunList.enrollFromTo": {
+    "description": "Text label for the enrollment dates",
+    "message": "Đăng ký từ {start} đến {end}"
+  },
+  "components.CourseRunList.noCourseRunAvailable": {
+    "description": "Text displayed when no course run are opened for the course",
+    "message": "Không có buổi học nào cho khóa học này."
+  },
+  "components.DesktopUserMenu.menuPurpose": {
+    "description": "Accessible label for user menu button",
+    "message": "Truy cập vào thông tin cá nhân của bạn."
+  },
+  "components.EnrollableCourseRunList.ariaSelectCourseRun": {
+    "description": "Accessible label used by screen reader when user checked a course run radio input.",
+    "message": "Chọn khóa học từ {start} đến {end}."
+  },
+  "components.EnrollableCourseRunList.enroll": {
+    "description": "Text label for the enroll button",
+    "message": "Đăng ký"
+  },
+  "components.EnrollableCourseRunList.enrollOn": {
+    "description": "Text label for the enrollment dates",
+    "message": "Đăng ký từ {enrollment_start} đến {enrollment_end}"
+  },
+  "components.EnrollableCourseRunList.enrolling": {
+    "description": "Label displayed when a request to enroll to a course run is loading",
+    "message": "Đang đăng ký..."
+  },
+  "components.EnrollableCourseRunList.enrollmentNotYetOpened": {
+    "description": "Text label for the enroll cta when enrollment is not yet opened",
+    "message": "Đăng ký sẽ bắt đầu từ {enrollment_start}"
+  },
+  "components.EnrollableCourseRunList.noCourseRunAvailable": {
+    "description": "Text displayed when no course run are opened for the course",
+    "message": "KHông có buổi học nào cho khóa này."
+  },
+  "components.EnrollableCourseRunList.selectCourseRun": {
+    "description": "Label displayed when user do not have select a course run.",
+    "message": "Chọn 1 khóa học"
+  },
+  "components.EnrolledCourseRun.goToCourse": {
+    "description": "CTA displayed when user is enrolled to the course run.",
+    "message": "Tham gia khóa học"
+  },
+  "components.EnrolledCourseRun.unroll": {
+    "description": "Button label to unroll.",
+    "message": "Hủy đăng ký"
+  },
+  "components.EnrolledCourseRun.unrolling": {
+    "description": "Accessible label displayed when user is being unrolled.",
+    "message": "DDanwng hủy đăng ký"
+  },
+  "components.LanguageSelector.currentlySelected": {
+    "description": "Accessible hint to mark the currently selected language in the language selector",
+    "message": "(currently selected)"
+  },
+  "components.LanguageSelector.languages": {
+    "description": "Default text for the language selector button when the current language cannot be identified",
+    "message": "Ngôn ngữ"
+  },
+  "components.LanguageSelector.selectLanguage": {
+    "description": "Accessible label for the language selector button",
+    "message": "Chọn ngôn ngữ"
+  },
+  "components.LanguageSelector.switchToLanguage": {
+    "description": "Accessible link title for the language switching links in language selector",
+    "message": "Chuyển sang {language}"
+  },
+  "components.PaginateCourseSearch.currentlyReadingLastPageN": {
+    "description": "Accessibility helper in pagination, shown next to the current page number when it is the last page.",
+    "message": "Hiện tại đang đọc trang cuối {page}"
+  },
+  "components.PaginateCourseSearch.currentlyReadingPageN": {
+    "description": "Accessibility helper in pagination, shown next to the current page number when it is not the last page.",
+    "message": "Hiện tại đang đọc trang {page}"
+  },
+  "components.PaginateCourseSearch.lastPageN": {
+    "description": "Accessibility helper for pagination, added on the last page link.",
+    "message": "Trang cuối {page}"
+  },
+  "components.PaginateCourseSearch.nextPageN": {
+    "description": "Accessibility helper for pagination, added on the next page link.",
+    "message": "Trang tiếp {page}"
+  },
+  "components.PaginateCourseSearch.pageN": {
+    "description": "Accessibility helper for pagination, added on all page links for screen readers,\n      only shown next to \"page 1\" visually.",
+    "message": "Trang {page}"
+  },
+  "components.PaginateCourseSearch.pagination": {
+    "description": "Label for the pagination navigation in course search results.",
+    "message": "Đánh dấu trang"
+  },
+  "components.PaginateCourseSearch.previousPageN": {
+    "description": "Accessibility helper for pagination, added on the previous page link.",
+    "message": "Trang trước {page}"
+  },
+  "components.PaymentButton.errorAbort": {
+    "description": "Error message shown when user aborts the payment.",
+    "message": "Bạn đã hủy bỏ thanh toán."
+  },
+  "components.PaymentButton.errorAborting": {
+    "description": "Error message shown when user asks to abort the payment.",
+    "message": "Đang hủy thanh toán..."
+  },
+  "components.PaymentButton.errorDefault": {
+    "description": "Error message shown when payment creation request failed.",
+    "message": "Có lỗi xảy ra khi thanh toán. Vui lòng thử lại sau."
+  },
+  "components.PaymentButton.pay": {
+    "description": "CTA label to proceed to the payment of the product",
+    "message": "Thanh toán {price}"
+  },
+  "components.PaymentButton.payInOneClick": {
+    "description": "CTA label to proceed to the one click payment of the product",
+    "message": "Thanh toán bằng 1 click! {price}"
+  },
+  "components.PaymentButton.paymentInProgress": {
+    "description": "Label for screen reader when a payment is in progress.",
+    "message": "Đang thanh toán"
+  },
+  "components.PurchasedProductMenu.actionsRelated": {
+    "description": "Accessible label for the purchased product menu",
+    "message": "Mọi hành động khác liên quan đến sản phẩm này. "
+  },
+  "components.PurchasedProductMenu.downloadInvoice": {
+    "description": "Label for selector item to download invoice",
+    "message": "Download invoice"
+  },
+  "components.PurchasedProductMenu.generatingInvoice": {
+    "description": "Accessible label when invoice is being generated",
+    "message": "Đang tạo hóa đơn..."
+  },
+  "components.RegisteredCreditCard.expirationDate": {
+    "description": "Credit card expiration date label",
+    "message": "Ngày hết hạn: {expirationDate}"
+  },
+  "components.RegisteredCreditCard.inputAriaLabel": {
+    "description": "ARIA Label read by screen reader to inform which card is focused",
+    "message": "{selected, select, true {Unselect} {Select}} {title} thẻ khác "
+  },
+  "components.RootSearchSuggestField.searchFieldPlaceholder": {
+    "description": "Placeholder text displayed in the search field when it is empty.",
+    "message": "Tìm kiếm khóa học"
+  },
+  "components.SaleTunnel.closeDialog": {
+    "description": "ARIA label used by screenreader to inform that the close dialog button is selected",
+    "message": "Đóng hội thoại"
+  },
+  "components.SaleTunnel.loginToPurchase": {
+    "description": "Label displayed inside the product's CTA when user is not logged in",
+    "message": "Đăng nhập để mua"
+  },
+  "components.SaleTunnel.stepPayment": {
+    "description": "Label of the Payment step",
+    "message": "Thanh toán"
+  },
+  "components.SaleTunnel.stepResume": {
+    "description": "Label of the Resume step",
+    "message": "Sơ yếu lý lịch"
+  },
+  "components.SaleTunnel.stepValidation": {
+    "description": "Label of the Validation step",
+    "message": "Thẩm định"
+  },
+  "components.SaleTunnelStepPayment.registeredCardSectionTitle": {
+    "description": "Label for the registered credit cards section",
+    "message": "Bạn đã đăng ký thẻ ngân hàng"
+  },
+  "components.SaleTunnelStepPayment.resumeTile": {
+    "description": "Label for the resume tile",
+    "message": "Bạn đang chuẩn bị đăng ký"
+  },
+  "components.SaleTunnelStepPayment.userBillingAddressAddLabel": {
+    "description": "Label for the billing address add button",
+    "message": "Thêm địa chỉ"
+  },
+  "components.SaleTunnelStepPayment.userBillingAddressCreateLabel": {
+    "description": "Label for the billing address create button",
+    "message": "Tạo địa chỉ"
+  },
+  "components.SaleTunnelStepPayment.userBillingAddressFieldset": {
+    "description": "Label for the billing address fieldset",
+    "message": "Địa chỉ thanh toán"
+  },
+  "components.SaleTunnelStepPayment.userBillingAddressNoEntry": {
+    "description": "Message displayed when the user has no address.",
+    "message": "Bạn chưa có địa chỉ thanh toán."
+  },
+  "components.SaleTunnelStepPayment.userBillingAddressSelectLabel": {
+    "description": "Label for the billing address select",
+    "message": "Chọn một địa chỉ thanh toán"
+  },
+  "components.SaleTunnelStepPayment.userTile": {
+    "description": "Label for the user information tile",
+    "message": "Thông tin cá nhân của bạn"
+  },
+  "components.SaleTunnelStepResume.congratulations": {
+    "description": "Text displayed to thank user for his order",
+    "message": "Xin chúc mừng!"
+  },
+  "components.SaleTunnelStepResume.cta": {
+    "description": "Label to the call to action to close sale tunnel",
+    "message": "Bắt đầu khóa học này ngay bây giờ!"
+  },
+  "components.SaleTunnelStepResume.successDetailMessage": {
+    "description": "Text to remind that order's invoice will be send by email soon",
+    "message": "Bạn sẽ nhận được hóa đơn của mình qua email trong giây lát."
+  },
+  "components.SaleTunnelStepResume.successMessage": {
+    "description": "Message to confirm that order has been created",
+    "message": "Đơn hàng của bạn đã được tạo thành công."
+  },
+  "components.SaleTunnelStepValidation.availableCourseRuns": {
+    "description": "Course runs available text",
+    "message": "{ count, plural, =0 {No course runs} {One course run} khóa học này {# course runs} } khả thi"
+  },
+  "components.SaleTunnelStepValidation.courseRunDates": {
+    "description": "Course run date text",
+    "message": "Từ {start} đến {end}"
+  },
+  "components.SaleTunnelStepValidation.includingVAT": {
+    "description": "Text displayed next to the price to mention this is the price including VAT.",
+    "message": "Bao gồm VAT"
+  },
+  "components.SaleTunnelStepValidation.proceedToPayment": {
+    "description": "CTA to go to payment step",
+    "message": "Tiến hành thanh toán"
+  },
+  "components.Search.errorMessage": {
+    "description": "Error message for Search view when the request to load courses fails",
+    "message": "Có lỗi xảy ra! Không thể tải các khóa học."
+  },
+  "components.Search.hideFiltersPane": {
+    "description": "Accessibility text for the button/icon that toggles *off* the filters pane on mobile",
+    "message": "Ẩn bộ lọc"
+  },
+  "components.Search.resultsTitle": {
+    "description": "Title for the search results pane in course search (not shown, made for screen reader users).",
+    "message": "Kết quả tìm kiếm"
+  },
+  "components.Search.showFiltersPane": {
+    "description": "Accessibility text for the button/icon that toggles *on* the filters pane on mobile",
+    "message": "Hiển thị bộ lọc"
+  },
+  "components.Search.spinnerText": {
+    "description": "Accessibility text for the spinner while search results are being loaded",
+    "message": "Đang tải kết quả tìm kiếm ..."
+  },
+  "components.Search.textQueryLengthWarning": {
+    "description": "Warning message in search results when the text query is not long enough to be used.",
+    "message": "Tìm kiếm văn bản yêu cầu ít nhất 3 ký tự. { query } không đủ dài để tìm kiếm. Kết quả tìm kiếm sẽ không bị ảnh hưởng bởi truy vấn này."
+  },
+  "components.SearchFilterGroupModal.closeModal": {
+    "description": "Text for the button to close the search filters modal",
+    "message": "Đóng phương thức"
+  },
+  "components.SearchFilterGroupModal.error": {
+    "description": "Error message when the search for more filter value fails in the search filters modal.",
+    "message": "Đã xảy ra lỗi khi tìm kiếm {filterName}."
+  },
+  "components.SearchFilterGroupModal.inputLabel": {
+    "description": "Accessible label for the search input in the search filter modal.",
+    "message": "Tìm kiếm bộ lọc để thêm"
+  },
+  "components.SearchFilterGroupModal.inputPlaceholder": {
+    "description": "Placeholder message for the search input in the search filter modal.",
+    "message": "Tìm kiếm ở { filterName }"
+  },
+  "components.SearchFilterGroupModal.loadMoreResults": {
+    "description": "Button to manually load more results for the current active filter",
+    "message": "Tải thêm kết quả"
+  },
+  "components.SearchFilterGroupModal.loadingResults": {
+    "description": "Loading message while loading more results in the search filter modal.",
+    "message": "Đang tải kết quả tìm kiếm ..."
+  },
+  "components.SearchFilterGroupModal.modalTitle": {
+    "description": "Title for the modal to add more filter values in the search filters modal.",
+    "message": "Thêm bộ lọc cho {filterName}"
+  },
+  "components.SearchFilterGroupModal.moreOptionsButton": {
+    "description": "Test for the button to see more filter values than the top N that appear by default.",
+    "message": "Lựa chọn khác"
+  },
+  "components.SearchFilterGroupModal.queryTooShort": {
+    "description": "Users need to enter at least 3 characters to search for more filter values; this message informs them when they start typing.",
+    "message": "Nhập ít nhất 3 ký tự để bắt đầu tìm kiếm."
+  },
+  "components.SearchFilterValueParent.ariaHideChildren": {
+    "description": "Accessibility message for the button to hide children of the current filter",
+    "message": "Ẩn các bộ lọc bổ sung cho {filterValueName}"
+  },
+  "components.SearchFilterValueParent.ariaShowChildren": {
+    "description": "Accessibility message for the button to show children of the current filter",
+    "message": "Hiển thị thêm bộ lọc cho {filterValueName}"
+  },
+  "components.SearchFiltersPane.clearFilters": {
+    "description": "Helper button in search filters pane in search page to remove all active filters",
+    "message": "Loại bỏ {activeFilterCount, number} kích hoạt {activeFilterCount, plural, one {filter} other {filters}}"
+  },
+  "components.SearchFiltersPane.title": {
+    "description": "Title for the search filters pane in course search.",
+    "message": "Bộ lọc khóa học"
+  },
+  "components.SearchInput.button": {
+    "description": "Accessibility text for the search button inside the Search input.",
+    "message": "Tìm kiếm"
+  },
+  "components.SearchSuggestField.searchFieldPlaceholder": {
+    "description": "Placeholder text displayed in the search field when it is empty.",
+    "message": "Tìm kiếm các khóa học, tổ chức, danh mục"
+  },
+  "components.UserLogin.logIn": {
+    "description": "Text for the login button.",
+    "message": "Đăng nhập"
+  },
+  "components.UserLogin.logOut": {
+    "description": "Text for the logout button.",
+    "message": "Đăng xuất"
+  },
+  "components.UserLogin.signup": {
+    "description": "Text for the signup button.",
+    "message": "Đăng ký"
+  },
+  "components.UserLogin.spinnerText": {
+    "description": "Accessibility text for the spinner in the login area.",
+    "message": "Đang tải trạng thái đăng nhập ..."
+  },
+  "components.useStaticFilters.courses": {
+    "description": "localized human_name label for coursesConfig filter name",
+    "message": "Khóa học"
+  }
+}
