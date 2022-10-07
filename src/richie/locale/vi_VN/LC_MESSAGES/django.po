@@ -1791,7 +1791,7 @@ msgstr "trang gốc"
 
 #: plugins/html_sitemap/models.py:27
 msgid "This page will be at the root of your sitemap (or its children if the \"include root page\" flag is unticked)."
-msgstr "Trang này sẽ nằm ở thư mục gốc của sơ đồ trang web của bạn (hoặc trang con của sơ đồ trang web nếu cờ "include root page" được bỏ chọn)."
+msgstr "Trang này sẽ nằm ở thư mục gốc của sơ đồ trang web của bạn (hoặc trang con của sơ đồ trang web nếu cờ \"include root page\" được bỏ chọn)."
 
 #: plugins/html_sitemap/models.py:34
 msgid "max depth"
